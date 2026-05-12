@@ -4,6 +4,7 @@ author: `[___]`
 date: today
 format: pdf
 jupyter: python3
+bibiliography: `[___]`
 ---
 
 # Introduction
