@@ -8,7 +8,8 @@
       "extensions": [
         "quarto.quarto",
         "mcanouil.quarto-wizard",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "tomoki1207.pdf"
       ]
     }
   }
