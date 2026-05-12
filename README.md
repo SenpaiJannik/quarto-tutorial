@@ -12,8 +12,8 @@ quarto create project
 ```
 
 2. Choose type: default
-3. Give your project a name
-4. Enter a directory name for your Quarto project (e.g. MyQuartoPrj)
+3. Enter a directory name for your Quarto project (e.g. MyQuartoPrj)
+4. Give your project a name
 5. Open the generated `.qmd` file inside the generated project directory
 
 You have now successfully created your first Quarto project!
@@ -37,9 +37,13 @@ What you have to do:
 7. Inspect the pdf. The code from the plot is no longer visible.
 
 # Task 3
-Now we want to use the IEEE-template for the Quarto project.
+Now we want to use the IEEE-template for the Quarto project. Run the command in bash:
 
-1. 
+```bash
+quarto add dfolio/quarto-ieee
+```
+
+After installation, replace the `format: pdf` with format: `ieee-pdf` and rerender.
 
 
 # Sources
