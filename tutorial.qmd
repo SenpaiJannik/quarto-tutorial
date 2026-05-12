@@ -1,0 +1,48 @@
+---
+title: `[___]`
+author: `[___]`
+date: today
+format: pdf
+jupyter: python3
+---
+
+# Introduction
+This document is a first introduction for learning the basics of Quarto. Your task is to fill out the `[___]` spots with the correct values.
+
+# Plot
+Fill in the gaps from the plot.
+
+```{python}
+#| label: `[___]`
+#| fig-cap: `[___]`
+#| echo: `[___]`
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+weeks = np.arange(1, 11)
+jupyter = np.array([2, 3, 5, 6, 8, 7, 9, 8, 9, 10])
+quarto  = np.array([6, 5, 4, 3, 3, 2, 2, 1, 1, 1])
+
+plt.figure(figsize=(7, 4))
+plt.plot(weeks, jupyter, marker="o", color="tomato", linewidth=2, label="Jupyter")
+plt.plot(weeks, quarto, marker="o", color="steelblue", linewidth=2, label="Quarto")
+plt.xlabel("Weeks")
+plt.ylabel("Frustration (1-10)")
+plt.title("Frustration over time")
+plt.legend()
+plt.ylim(0, 11)
+plt.xticks(weeks)
+plt.grid(alpha=0.3)
+plt.tight_layout()
+plt.show()
+```
+
+A plot can be referenced in text. Use this feature to reference the plot from above using the label `[___]`.
+
+# Citation
+You can cite references from your references.bib file.
+
+The study compared the jump height between dog and cat fleas `[___]`.
+
+# References
