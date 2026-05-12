@@ -1,18 +1,14 @@
 {
-  "name": "Quarto Tutorial",
-  "image": "ghcr.io/mcanouil/quarto-codespaces:release-universal",
-  "postCreateCommand": "pip install matplotlib pandas numpy seaborn",
+  "name": "Quarto tutorial",
+  "image": "ghcr.io/mcanouil/quarto-codespaces:latest",
+  "remoteUser": "vscode",
+  "postCreateCommand": "pip install jupyter ipykernel matplotlib pandas numpy seaborn",
   "customizations": {
     "vscode": {
       "extensions": [
         "quarto.quarto",
-        "ms-python.python",
-        "tomoki1207.pdf"
-      ],
-      "settings": {
-        "editor.formatOnSave": true,
-        "python.defaultInterpreterPath": "/usr/local/python/current/bin/python3"
-      }
+        "mcanouil.quarto-wizard"
+      ]
     }
   }
 }
