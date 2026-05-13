@@ -20,7 +20,7 @@ You have now successfully created your first Quarto project!
 
 # Task 2
 
-Paste the tutorial.qmd file into the generated Quarto directory. The file contains gaps that you have to fill out. The gaps are visualized like this: `[___]`.
+Paste the content of the tutorial.qmd file into the generated file inside the Quarto directory (the .qmd file). The file contains gaps that you have to fill out. The gaps are visualized like this: `[___]`.
 
 What you have to do:
 1. Fix the header
